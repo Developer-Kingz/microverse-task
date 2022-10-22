@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbody{
+    width: 100vw;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    background-color: #eee;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 20px;
+}
+.picturediv{
+    width: 95%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture{
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid black; */
+    background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.centertext{
+    width: 50%;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.centertext h3{
+    margin-top: 5vh;
+}
+.mylist{
+    text-align: start;
+}
+.centertext li{
+    margin-bottom: 3vh;
+}
